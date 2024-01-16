@@ -7,4 +7,4 @@
 |      |  [[String]]   | Beatmap MD5 |
 |  4   |   [[Mods]]    | Mods        |
 |  1   | [[PlayModes]] | Play Mode   |
-|  4   |     sInt      | BeatmapId   |d
+|  4   |     sInt      | BeatmapId   |
