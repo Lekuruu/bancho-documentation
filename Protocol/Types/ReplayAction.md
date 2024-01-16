@@ -1,7 +1,5 @@
 # ReplayAction
 
-This is used inside the [[ReplayFrameBundle]] packet.
-
 |     Name      | Value |
 |     :--:      | :---: |
 | Standard      |   0   |
