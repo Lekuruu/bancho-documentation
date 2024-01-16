@@ -12,3 +12,12 @@
 "Extra" is used for either the user id that the user is spectating,
 or the seed the user has for the osu!mania Random mod.
 :::
+
+The "Extra" is not present anymore in b20130329:
+
+| Size |         Datatype         | Description           |
+|:----:|:------------------------:|:----------------------|
+|  2   |          uShort          | Bundle Length         |
+|      |  List[[[ReplayFrame]]]   | List of Replay Frames |
+|  1   |     [[ReplayAction]]     | Replay Action         |
+|      | Optional[[[ScoreFrame]]] | ScoreFrame (Optional) |
