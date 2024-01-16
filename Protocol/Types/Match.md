@@ -8,11 +8,11 @@ The bMatch type has changed a lot over the years. The current format looks like 
 |  1   |    bool    | In Progress                                  |
 |  1   |    char    | Match Type                                   |
 |  4   |    sInt    | Mods                                         |
-|  ?   | [[String]] | Name                                         |
-|  ?   | [[String]] | Password                                     |
-|  ?   | [[String]] | Beatmap Text                                 |
+|      | [[String]] | Name                                         |
+|      | [[String]] | Password                                     |
+|      | [[String]] | Beatmap Text                                 |
 |  4   |    sInt    | Beatmap ID                                   |
-|  ?   | [[String]] | Beatmap Checksum                             |
+|      | [[String]] | Beatmap Checksum                             |
 |  16  | char * 16  | Slot Status for each Slot                    |
 |  16  | char * 16  | Slot Team for each Slot                      |
 |  64  | sInt * 16  | Player ID for each Slot                      |
