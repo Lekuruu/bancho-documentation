@@ -26,3 +26,17 @@ The "Ranked" value contains the submission status:
 ::: info
 The "Id" is the index of the requested filename, or `-1` if it was a requested BeatmapId.
 :::
+
+In versions **b20121008** and lower, the ManiaRank is not present anymore:
+
+| Size |   Datatype   | Description  |
+|:----:|:------------:|:-------------|
+|  2   |    sShort    | Id           |
+|  4   |     sInt     | BeatmapId    |
+|  4   |     sInt     | BeatmapSetId |
+|  4   |     sInt     | ThreadId     |
+|  1   |     char     | Ranked       |
+|  1   | [[Rankings]] | OsuRank      |
+|  1   | [[Rankings]] | FruitsRank   |
+|  1   | [[Rankings]] | TaikoRank    |
+|      |  [[String]]  | Beatmap MD5  |
