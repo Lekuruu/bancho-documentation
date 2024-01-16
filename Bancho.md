@@ -16,7 +16,7 @@ and more!
 Nowadays the client will use a **HTTPS** connection to interact with Bancho under [c.ppy.sh](https://c.ppy.sh/),
 but back then [peppy](https://osu.ppy.sh/wiki/en/People/peppy) used a **TCP server** to handle client connections.
 
-To **learn more** about the technical details, get started on [[Notes/Bancho Documentation/Protocol/Protocol|this page]].
+To **learn more** about the technical details, get started on [[Protocol|this page]].
 
 ---
 
