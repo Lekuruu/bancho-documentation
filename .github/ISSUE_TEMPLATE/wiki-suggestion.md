@@ -16,4 +16,3 @@ This can either be a diff patch, or the full file, alongside the filename. For e
 WikiFile.md
 ---
 [ ... ]
----
